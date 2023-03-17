@@ -2,19 +2,22 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+    font-family: Gotham, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #39395A;
+    background-color: #633360;
+  
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #b9c7d7;
 }
 
 .resume-main {
@@ -22,8 +25,9 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #efe2f5;
 }
+
 
 /* Styles for lists in the document */
 
@@ -35,12 +39,18 @@ body {
 	margin-left: -1em;
 }
 
+.proofofextraclass {
+    font-style: italic;	
+	
+}
+
 .biography-details li::before {
-	color: #EE7623;
+    color: #FF3F00;
 }
 
 .biography-details li, .skill-list li {
-	padding-left: 1em;
+    padding-left: 1em;
+    color: #C12121;
 }
 
 /* Styles for contact icons */
